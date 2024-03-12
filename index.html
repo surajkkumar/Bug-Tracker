@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bug Tracking App</title>
+</head>
+<body>
+    <div id="login-container">
+        <h1>Bug Tracking App</h1>
+        <label for="username">Username:</label>
+        <input type="text" id="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+        <label for="role">Role:</label>
+        <select id="role">
+            <option value="manager">Manager</option>
+            <option value="developer">Developer</option>
+            <option value="tester">Tester</option>
+        </select>
+        <button onclick="login()">Login</button>
+        <div id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
